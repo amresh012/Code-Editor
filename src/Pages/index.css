@@ -1,0 +1,204 @@
+.homepage-wrapper , .formwrapper
+{
+    box-shadow: 10px 20px 10px lightgray;
+    border-radius: 10px;
+    height: 350px;
+    width: 400px;
+    margin: 6rem auto;
+    background-color: rgb(248, 248, 248);
+    color: black;
+
+}
+.formwrapper
+{
+    border-right: 5px solid lightgray;
+    border-bottom: 4px solid lightgray;
+
+}
+.logo
+{
+    height: 130px;
+    width: 160px;
+    position: relative;
+    left: 7rem;
+    top: 1rem;
+}
+body
+{
+    background: white;
+
+}
+.inputbox
+{
+    display: flex;
+    margin: 10px auto;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 3px 20px;
+    border: none;
+    width: 20rem;
+    outline: none;
+    font-weight: 600;
+    box-shadow: 0px 2px 10px lightgray;
+
+
+}
+.inputbox:focus
+{
+    transform: scale(1.05);
+}
+
+.joinbtn
+{
+    display: block;
+    padding: .5rem;
+    font-size: 16px;
+    font-weight: 800;
+    position: relative;
+    top: 2px;
+    left: 300px;
+    background:transparent;
+    border-top: 2px solid lightgray;
+    border-right: 4px solid lightgray;
+    border-bottom: 4px solid lightgray;
+    border-radius: 10px;
+    width: 90px;
+    color: black;
+    transition: .1s ease-in;
+
+}
+.joinbtn:hover
+{
+    transform: scale(0.98);
+
+}
+.mainlabel
+{
+    position: relative;
+    top: 1px;
+    left: 1.7rem;
+}
+.createinfo
+{
+    position: relative;
+    /* top: 1rem; */
+    left: 1.4rem;
+}
+.createnewbutton
+{
+    color: red;
+    font-weight: 800;
+    text-decoration: none;
+    border-bottom: 2px solid red;
+}
+.Addinfo
+{
+    color: black;
+    text-align: center;
+    font-size: 19px;
+}
+.githublink
+{
+    text-decoration: none;
+    border-radius: 10px;
+    padding: .7rem;
+    color: white;
+    background-image:linear-gradient(to right ,#0003119e, #030611f9);
+    transition: .1s ease-in;
+}
+.githublink:hover
+{
+    transform: scale(0.98);
+    border: 2px solid lightblue;
+    background-color: transparent;
+    box-shadow: none;
+}
+.btn
+{
+    display: block;
+    padding: .5rem;
+    border: none;
+    border-radius: 10px;
+    margin: .5rem;
+}
+.logoImage
+{
+    width: 100px;
+    max-height: 100px;
+    position: relative;
+    left: 4rem;
+    border-bottom: 2px solid yellow;
+}
+.connected-text
+{
+    color: rgb(255, 255, 15);
+    text-align: center;
+    text-transform: uppercase;
+}
+.mainwrap
+{
+    display: grid;
+    grid-template-columns: 230px 1fr;
+    height: 100vh;
+    background-color: rgb(0, 36, 36);
+
+    
+}
+.aside
+{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 58, 58);
+    color: aliceblue;
+    box-shadow: 0px 20px 5px black;
+    border-right: 1px solid royalblue;
+
+}
+.aside-inner
+{
+    flex-grow: 1;
+}
+.clientlist
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.client
+{
+    margin-left: .5rem;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     font-weight: 700;
+}
+.username
+{
+    margin-bottom: 1rem;
+
+}
+.leavebtn
+{
+    background:rgb(255, 21, 0);
+    color: aliceblue;
+    font-size: 17px; 
+    font-weight: 700;
+    font-size: 17px;
+}
+.copybtn
+{
+    background:rgb(61, 155, 30);
+    font-weight: 800;
+    color: aliceblue;
+}
+.leavebtn:hover, .copybtn:hover
+{
+    transform: scale(0.98);
+    box-shadow: 0px 2px 10px black;
+}
+.realtimeEditor
+{
+    font-size: 20px;
+    font-weight: 800;
+}
